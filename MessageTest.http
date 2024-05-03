@@ -1,0 +1,36 @@
+POST http://127.0.0.1:8080/message
+Content-Type: application/json
+
+{
+  "id": "1",
+  "content": "this is my message"
+}
+
+
+###
+POST http://127.0.0.1:8080/message
+Content-Type: application/json
+
+{
+  "id": "2",
+  "content": "this is my second message"
+}
+
+###
+POST http://127.0.0.1:8080/message
+Content-Type: application/json
+
+{
+  "id": "3",
+  "content": "this is my third message"
+}
+
+
+###
+GET http://127.0.0.1:8080/message
+Accept: application/json
+
+###
+GET http://127.0.0.1:8080/message/latest
+Accept: application/json
+
